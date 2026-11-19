@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510" role="img" aria-labelledby="titel beschreibung">
+<title id="titel">Raft: three of five replicas</title><desc id="beschreibung">A cluster has five voting servers. The leader and two followers have stored the entry from its current term: three out of five. In Raft, older log entries cannot be committed directly by counting replicas alone.</desc>
+<defs><marker id="pfeil" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L8 4 L0 8 Z" fill="#43516b"/></marker></defs>
+<rect x="0" y="0" width="960" height="510" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
+<g font-family="system-ui, sans-serif">
+<text x="34" y="51" text-anchor="start" font-size="31" font-weight="700" fill="#182338">Raft: three of five replicas</text>
+<text x="35" y="86" text-anchor="start" font-size="21" font-weight="400" fill="#43516b">Example: in term 7, the leader writes the new entry at log index 12.</text>
+<rect x="34" y="125" width="172" height="126" rx="14" fill="#d9f0e8" stroke="#bac5d4" stroke-width="2"/>
+<text x="120" y="159" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">A</text>
+<text x="120" y="189" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Leader</text>
+<text x="120" y="213" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Index 12 present</text>
+<rect x="214" y="125" width="172" height="126" rx="14" fill="#d9f0e8" stroke="#bac5d4" stroke-width="2"/>
+<text x="300" y="159" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">B</text>
+<text x="300" y="189" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Follower</text>
+<text x="300" y="213" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Index 12 present</text>
+<rect x="394" y="125" width="172" height="126" rx="14" fill="#d9f0e8" stroke="#bac5d4" stroke-width="2"/>
+<text x="480" y="159" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">C</text>
+<text x="480" y="189" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Follower</text>
+<text x="480" y="213" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Index 12 present</text>
+<rect x="574" y="125" width="172" height="126" rx="14" fill="#edf1f7" stroke="#bac5d4" stroke-width="2"/>
+<text x="660" y="159" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">D</text>
+<text x="660" y="189" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Follower</text>
+<text x="660" y="213" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">still pending</text>
+<rect x="754" y="125" width="172" height="126" rx="14" fill="#edf1f7" stroke="#bac5d4" stroke-width="2"/>
+<text x="840" y="159" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">E</text>
+<text x="840" y="189" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Follower</text>
+<text x="840" y="213" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">still pending</text>
+<rect x="35" y="281" width="890" height="62" rx="14" fill="#dceafe" stroke="#bac5d4" stroke-width="2"/>
+<text x="480" y="321" text-anchor="middle" font-size="22" font-weight="700" fill="#182338">3 of 5 including leader: majority for the entry from term 7.</text>
+<rect x="35" y="364" width="890" height="100" rx="14" fill="#fff0d8" stroke="#bac5d4" stroke-width="2"/>
+<text x="58" y="401" text-anchor="start" font-size="21" font-weight="700" fill="#182338">For older terms, counting copies alone is insufficient.</text>
+<text x="58" y="433" text-anchor="start" font-size="19" font-weight="400" fill="#182338">When the leader commits this new entry, it also commits the valid log prefix.</text>
+</g></svg>

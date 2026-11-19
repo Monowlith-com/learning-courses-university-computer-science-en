@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="A sensor supplies measurements to a microcontroller via an analogue input or ADC. The microcontroller controls a driver or PWM output for an actuator. The power supply provides separate power paths.">
+<title>Embedded measurement and control path</title>
+<desc>A sensor supplies measurements to a microcontroller via an analogue input or ADC. The microcontroller controls a driver or PWM output for an actuator. The power supply provides separate power paths.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Embedded measurement and control path</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Sensor → Microcontroller → Actuator</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="68" y="202" width="217" height="170" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="176" y="258" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Sensor</text>
+<text x="176" y="311" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Measurement signal</text>
+<rect x="352" y="202" width="217" height="170" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="460" y="258" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Microcontroller</text>
+<text x="460" y="311" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">ADC + Software</text>
+<rect x="693" y="202" width="217" height="170" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="801" y="258" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Actuator</text>
+<text x="801" y="311" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Drive / output</text>
+<line x1="285" y1="289" x2="343" y2="289" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="312" y="266" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Reading</text>
+<line x1="569" y1="289" x2="682" y2="289" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="625" y="265" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">PWM / driver</text>
+<rect x="338" y="436" width="285" height="58" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="481" y="472" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Power supply</text>
+<line x1="481" y1="436" x2="175" y2="386" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7" marker-end="url(#arrg)"/>
+<line x1="481" y1="436" x2="462" y2="386" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7" marker-end="url(#arrg)"/>
+<line x1="481" y1="436" x2="801" y2="386" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7" marker-end="url(#arrg)"/>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Distinguish signal flow from power supply; a drive may require a driver.</text>
+</svg>

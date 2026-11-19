@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="An accessible form with a labelled input, visible keyboard focus and a readable Save button. This sketch is not a complete accessibility test.">
+<title>Usable without a mouse</title>
+<desc>An accessible form with a labelled input, visible keyboard focus and a readable Save button. This sketch is not a complete accessibility test.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Usable without a mouse</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Visible keyboard focus and clear labels</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="148" y="171" width="664" height="338" rx="14" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="187" y="219" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Project name</text>
+<rect x="185" y="239" width="590" height="77" rx="5" fill="#FFFFFF" stroke="#2976BD" stroke-width="4"/>
+<text x="211" y="289" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Study notes</text>
+<text x="188" y="356" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Tab → next control</text>
+<rect x="516" y="381" width="258" height="80" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="645" y="430" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Save</text>
+<text x="187" y="418" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="start">Blue border = focus</text>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Every function needs understandable names and genuine keyboard access.</text>
+</svg>

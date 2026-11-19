@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-label="Software agent workflow from task via isolated change to tests, review and approval">
+<rect width="900" height="675" fill="#ffffff"/>
+<style>.t{font:600 28px system-ui,Arial,sans-serif;fill:#243246}.sub{font:18px system-ui,Arial,sans-serif;fill:#45556c}.note{font:17px system-ui,Arial,sans-serif;fill:#475569}.label{font:600 19px system-ui,Arial,sans-serif;fill:#203754}</style>
+<text x="48" y="64" class="t" >Agentic software engineering: controlled workflow</text>
+<text x="48" y="100" class="sub" >Automation with verifiable limits rather than blind trust</text>
+<rect x="120" y="170" width="255" height="134" rx="16" fill="#edf4fc" stroke="#80a7d6" stroke-width="2"/>
+<text x="142" y="222" class="label" >Task</text>
+<text x="142" y="262" class="note" >Acceptance criteria</text>
+<rect x="515" y="170" width="255" height="134" rx="16" fill="#edf4fc" stroke="#80a7d6" stroke-width="2"/>
+<text x="537" y="222" class="label" >Agent in sandbox</text>
+<text x="537" y="262" class="note" >limited tools</text>
+<rect x="515" y="405" width="255" height="134" rx="16" fill="#edf4fc" stroke="#80a7d6" stroke-width="2"/>
+<text x="537" y="457" class="label" >Tests &amp; review</text>
+<text x="537" y="497" class="note" >independent evidence</text>
+<rect x="120" y="405" width="255" height="134" rx="16" fill="#edf4fc" stroke="#80a7d6" stroke-width="2"/>
+<text x="142" y="457" class="label" >Approval</text>
+<text x="142" y="497" class="note" >Human / policy gate</text>
+<path d="M383,237 L501,237 M490.2,242.2 L501,237 L490.2,231.8" fill="none" stroke="#3e80dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M643,313 L643,394 M637.8,383.2 L643,394 L648.2,383.2" fill="none" stroke="#3e80dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M506,472 L385,472 M395.8,466.8 L385,472 L395.8,477.2" fill="none" stroke="#3e80dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M247,397 L247,315 M252.2,325.8 L247,315 L241.8,325.8" fill="none" stroke="#3e80dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="448" y="605" class="note" text-anchor="middle">Accept changes only after confirmed review</text>
+</svg>

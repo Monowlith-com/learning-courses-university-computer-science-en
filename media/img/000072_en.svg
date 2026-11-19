@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Both threads first read ten, calculate eleven and write eleven. The result is eleven instead of the expected twelve.">
+<title>Race condition: lost update</title>
+<desc>Both threads first read ten, calculate eleven and write eleven. The result is eleven instead of the expected twelve.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Race condition: lost update</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Two threads increment the same counter, initially 10</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="54" y="162" width="851" height="65" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="214" y="205" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Thread A</text>
+<text x="480" y="205" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Thread B</text>
+<text x="773" y="205" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Shared counter</text>
+<rect x="54" y="232" width="851" height="42" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="259" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">reads 10</text>
+<text x="480" y="259" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="773" y="259" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">10</text>
+<rect x="54" y="275" width="851" height="42" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="302" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="480" y="302" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">reads 10</text>
+<text x="773" y="302" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">10</text>
+<rect x="54" y="318" width="851" height="42" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="345" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">calculates 11</text>
+<text x="480" y="345" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="773" y="345" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">10</text>
+<rect x="54" y="361" width="851" height="42" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="388" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="480" y="388" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">calculates 11</text>
+<text x="773" y="388" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">10</text>
+<rect x="54" y="404" width="851" height="42" rx="0" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="431" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">writes 11</text>
+<text x="480" y="431" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="773" y="431" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">11</text>
+<rect x="54" y="447" width="851" height="42" rx="0" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="214" y="474" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">–</text>
+<text x="480" y="474" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">writes 11</text>
+<text x="773" y="474" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">11</text>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Expected: 12. Solution: appropriate synchronisation or an atomic operation.</text>
+</svg>

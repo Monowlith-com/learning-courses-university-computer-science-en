@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="A primary server replicates to a standby via WAL. Monitoring checks the failure and redirects write requests only after a controlled decision. With asynchronous replication, data loss is possible.">
+<title>Database replication and failover</title>
+<desc>A primary server replicates to a standby via WAL. Monitoring checks the failure and redirects write requests only after a controlled decision. With asynchronous replication, data loss is possible.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Database replication and failover</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Primary server, standby and controlled switchover</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="64" y="218" width="225" height="168" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="176" y="262" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Application</text>
+<text x="176" y="309" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Write requests</text>
+<rect x="354" y="167" width="260" height="130" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="484" y="214" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Primary server</text>
+<text x="484" y="253" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Writable</text>
+<rect x="354" y="362" width="260" height="130" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="484" y="413" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Standby</text>
+<text x="484" y="449" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Replicated</text>
+<rect x="675" y="251" width="242" height="132" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="796" y="291" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Monitoring</text>
+<text x="796" y="336" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Decision / check</text>
+<line x1="289" y1="261" x2="344" y2="231" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="485" y1="297" x2="485" y2="351" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="513" y="341" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">WAL</text>
+<line x1="674" y1="299" x2="622" y2="239" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 5" marker-end="url(#arrg)"/>
+<line x1="674" y1="340" x2="624" y2="427" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 5" marker-end="url(#arrg)"/>
+<line x1="345" y1="431" x2="292" y2="348" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 5" marker-end="url(#arrg)"/>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Failover requires checks; asynchronous replication cannot guarantee zero data loss.</text>
+</svg>

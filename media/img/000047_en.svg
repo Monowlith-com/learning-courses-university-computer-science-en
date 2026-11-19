@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510" role="img" aria-labelledby="titel beschreibung">
+<title id="titel">Access rights before context delivery</title><desc id="beschreibung">Example of authorised retrieval. The application determines access rights, searches the permitted collection and checks the selected results again before calling the model. Confidential unauthorised results do not enter the context.</desc>
+<defs><marker id="pfeil" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L8 4 L0 8 Z" fill="#43516b"/></marker></defs>
+<rect x="0" y="0" width="960" height="510" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
+<g font-family="system-ui, sans-serif">
+<text x="34" y="51" text-anchor="start" font-size="31" font-weight="700" fill="#182338">Access rights before context delivery</text>
+<text x="35" y="85" text-anchor="start" font-size="21" font-weight="400" fill="#43516b">Example question: What is the retention period for project files?</text>
+<rect x="36" y="115" width="265" height="120" rx="14" fill="#dceafe" stroke="#bac5d4" stroke-width="2"/>
+<text x="168" y="149" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">1  Query + identity</text>
+<text x="168" y="179" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">The application checks</text>
+<text x="168" y="203" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">this person’s access rights.</text>
+<rect x="347" y="115" width="265" height="120" rx="14" fill="#dceafe" stroke="#bac5d4" stroke-width="2"/>
+<text x="479" y="149" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">2  Authorised search</text>
+<text x="479" y="179" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">The search filters for</text>
+<text x="479" y="203" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">permitted documents.</text>
+<rect x="658" y="115" width="265" height="120" rx="14" fill="#d9f0e8" stroke="#bac5d4" stroke-width="2"/>
+<text x="790" y="149" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">3  Check context</text>
+<text x="790" y="179" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Forward only valid and</text>
+<text x="790" y="203" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">authorised results.</text>
+<line x1="306" y1="176" x2="335" y2="176" stroke="#43516b" stroke-width="2" marker-end="url(#pfeil)"/>
+<line x1="617" y1="176" x2="646" y2="176" stroke="#43516b" stroke-width="2" marker-end="url(#pfeil)"/>
+<rect x="85" y="293" width="352" height="116" rx="14" fill="#fff0d8" stroke="#bac5d4" stroke-width="2"/>
+<text x="261" y="327" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">Excluded</text>
+<text x="261" y="357" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Personnel file: no read permission</text>
+<text x="261" y="381" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Remains outside the model context.</text>
+<rect x="523" y="293" width="352" height="116" rx="14" fill="#d9f0e8" stroke="#bac5d4" stroke-width="2"/>
+<text x="699" y="327" text-anchor="middle" font-size="23" font-weight="700" fill="#182338">To the language model</text>
+<text x="699" y="357" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Valid policy and source ID</text>
+<text x="699" y="381" text-anchor="middle" font-size="18" font-weight="400" fill="#182338">Answer based on permitted extracts.</text>
+<line x1="790" y1="239" x2="790" y2="282" stroke="#43516b" stroke-width="2" marker-end="url(#pfeil)"/>
+<text x="35" y="467" text-anchor="start" font-size="19" font-weight="400" fill="#43516b">The application enforces access rights. The model receives only the selection.</text>
+</g></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="The database server checks SQL and permissions, determines an access plan, performs a table scan or index lookup and returns ordered result rows.">
+<title>SQL: from command to result</title>
+<desc>The database server checks SQL and permissions, determines an access plan, performs a table scan or index lookup and returns ordered result rows.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">SQL: from command to result</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Simplified: query plan and data access</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="47" y="201" width="195" height="98" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="145" y="242" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">SQL query</text>
+<text x="145" y="270" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and permissions</text>
+<rect x="290" y="201" width="192" height="98" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="386" y="242" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Query plan</text>
+<text x="386" y="270" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">selection</text>
+<rect x="542" y="170" width="169" height="83" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="626" y="219" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Table scan</text>
+<rect x="542" y="308" width="169" height="83" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="626" y="357" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Index lookup</text>
+<rect x="764" y="201" width="152" height="98" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="840" y="242" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Filter /</text>
+<text x="840" y="270" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">result</text>
+<line x1="242" y1="250" x2="284" y2="250" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="482" y1="238" x2="534" y2="213" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="482" y1="263" x2="535" y2="344" stroke="#8793A6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrg)"/>
+<line x1="712" y1="212" x2="757" y2="239" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="712" y1="348" x2="757" y2="276" stroke="#8793A6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrg)"/>
+<rect x="177" y="439" width="610" height="64" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="482" y="478" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Costs and data distribution influence the plan.</text>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">The optimiser may choose a different plan depending on the query and data.</text>
+</svg>

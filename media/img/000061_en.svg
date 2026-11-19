@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Prompting guides the model through instructions in its context. RAG retrieves external documents for a query. Fine-tuning changes model parameters using training data; these methods can be combined.">
+<title>Prompting, RAG and fine-tuning</title>
+<desc>Prompting guides the model through instructions in its context. RAG retrieves external documents for a query. Fine-tuning changes model parameters using training data; these methods can be combined.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">Prompting, RAG and fine-tuning</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Three different ways of adapting an assistant</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="55" y="144" width="190" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="282" y="144" width="317" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="647" y="144" width="267" height="105" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="150" y="184" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Prompting</text>
+<text x="150" y="219" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Method</text>
+<text x="441" y="188" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Instruction + question</text>
+<text x="441" y="222" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Unchanged model</text>
+<text x="780" y="205" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Answer</text>
+<line x1="246" y1="195" x2="275" y2="195" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="601" y1="195" x2="641" y2="195" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<rect x="55" y="284" width="190" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="282" y="284" width="317" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="647" y="284" width="267" height="105" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="150" y="324" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">RAG</text>
+<text x="150" y="359" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Method</text>
+<text x="441" y="328" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Query → search → evidence</text>
+<text x="441" y="362" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Unchanged model</text>
+<text x="780" y="345" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Evidence-based answer</text>
+<line x1="246" y1="335" x2="275" y2="335" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="601" y1="335" x2="641" y2="335" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<rect x="55" y="424" width="190" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="282" y="424" width="317" height="105" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<rect x="647" y="424" width="267" height="105" rx="9" fill="#EAF4FF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="150" y="464" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Fine-tuning</text>
+<text x="150" y="499" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Method</text>
+<text x="441" y="468" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Training examples</text>
+<text x="441" y="502" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Parameter training</text>
+<text x="780" y="485" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Adapted model</text>
+<line x1="246" y1="475" x2="275" y2="475" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="601" y1="475" x2="641" y2="475" stroke="#2976BD" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">RAG = retrieval; fine-tuning = weight updates; prompting = context.</text>
+</svg>

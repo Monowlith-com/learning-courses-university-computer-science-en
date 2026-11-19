@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Input text is split into tokens, which are processed within a limited context window. The language model calculates distributions for the next token. Selected tokens are fed into the next step.">
+<title>From characters to output tokens</title>
+<desc>Input text is split into tokens, which are processed within a limited context window. The language model calculates distributions for the next token. Selected tokens are fed into the next step.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">From characters to output tokens</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Simplified autoregressive language model generation</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="47" y="201" width="165" height="135" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="129.5" y="252" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Input text</text>
+<text x="129.5" y="298" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Characters</text>
+<rect x="245" y="201" width="178" height="135" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="334.0" y="252" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Tokenizer</text>
+<text x="334.0" y="298" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Token IDs</text>
+<rect x="452" y="201" width="192" height="135" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="548.0" y="252" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Context window</text>
+<text x="548.0" y="298" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Limited</text>
+<rect x="682" y="201" width="225" height="135" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="794.5" y="252" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Language model</text>
+<text x="794.5" y="298" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Next token</text>
+<line x1="212" y1="267" x2="241" y2="267" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="423" y1="267" x2="448" y2="267" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="644" y1="267" x2="678" y2="267" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="810" y1="336" x2="810" y2="409" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="810" y1="409" x2="553" y2="409" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="553" y1="409" x2="553" y2="344" stroke="#2976BD" stroke-width="3" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="678" y="439" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">New token feeds into the next step</text>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Schematic: a token is not always a word. Context length and architecture vary.</text>
+</svg>

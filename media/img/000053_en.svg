@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="A client on private network 192.168.1.20 sends through a NAT router with example address 203.0.113.10 to web server 198.51.100.20, port 443. Example public addresses are from documentation ranges.">
+<title>From a home network to a web server</title>
+<desc>A client on private network 192.168.1.20 sends through a NAT router with example address 203.0.113.10 to web server 198.51.100.20, port 443. Example public addresses are from documentation ranges.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2976BD"/></marker><marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8793A6"/></marker></defs>
+<rect width="960" height="600" fill="#FFFFFF"/>
+<rect x="16" y="16" width="928" height="568" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="44" y="62" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">From a home network to a web server</text>
+<text x="44" y="91" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Outgoing HTTPS request, schematic NAT</text>
+<line x1="42" y1="107" x2="918" y2="107" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="54" y="206" width="222" height="202" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="165" y="254" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Client</text>
+<text x="165" y="310" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle">192.168.1.20</text>
+<text x="165" y="350" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">private port: 51500</text>
+<rect x="369" y="206" width="222" height="202" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="480" y="254" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Router / NAT</text>
+<text x="480" y="310" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle">203.0.113.10</text>
+<text x="480" y="350" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">source port: 52000</text>
+<rect x="687" y="206" width="222" height="202" rx="9" fill="#F5F8FC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="798" y="254" fill="#243047" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Web server</text>
+<text x="798" y="310" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle">198.51.100.20</text>
+<text x="798" y="350" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">HTTPS: 443</text>
+<line x1="283" y1="303" x2="360" y2="303" stroke="#2976BD" stroke-width="4" stroke-linecap="round" marker-end="url(#arr)"/>
+<line x1="597" y1="303" x2="676" y2="303" stroke="#2976BD" stroke-width="4" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="481" y="178" fill="#2976BD" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Request →</text>
+<line x1="685" y1="436" x2="273" y2="436" stroke="#8793A6" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5" marker-end="url(#arrg)"/>
+<text x="482" y="467" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">← Response via existing connection</text>
+<text x="46" y="560" fill="#5A6575" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Example addresses; NAT alone does not make the home server publicly accessible.</text>
+</svg>
