@@ -1,7 +1,7 @@
 ---
 document_id: "university_computer_science_en:path"
 series_id: "university_computer_science_en:M1-L1"
-series_part: 58
+series_part: 59
 document_version: "0.1.0"
 created: "2026-11-18"
 updated: "2026-11-18"
@@ -30,11 +30,11 @@ The course remains a **reading-based course with no compulsory assignments, prog
 | Level | Scope | Nature | Status |
 | --- | --- | --- | --- |
 | Main course M1–M6 | 33 lessons | Foundational course in computer science, servers, databases, cloud computing, AI and robotics | 33/33 complete |
-| Bachelor’s electives M8–M10 | 8 lessons | Optional additional subject areas | 8/8 complete |
+| Bachelor’s electives M8–M10 | 9 lessons | Optional additional subject areas | 9/9 complete |
 | Master’s core M7 | 6 lessons | Independent development of scientific and methodological knowledge following the foundational course | 6/6 complete |
 | Master’s electives | 8 proposed topics | Optional future specialist lessons; no texts yet | 0/8 planned |
 
-The two additional elective lessons [M11-L1](../M11-L1.md) and [M11-L2](../M11-L2.md) bring the course to a total of 49 lessons.
+The two additional elective lessons [M11-L1](../M11-L1.md) and [M11-L2](../M11-L2.md) bring the course to a total of 50 lessons.
 
 “Bachelor’s” and “Master’s” refer here exclusively to **educational levels of depth**. This is not an accredited university degree programme or an academic qualification. Assessment reports and decision guides in the appendix provide additional reading and are **not** counted as further lessons.
 
@@ -57,7 +57,7 @@ The Bachelor’s electives M8–M10 listed here are **optional preparation**, no
 | Master’s lesson | Useful prior reading | Purpose of the bridge |
 | --- | --- | --- |
 | [M7-L1 – Scientific evaluation and reasoning](../M7-L1.md) | [M1-L1](../M1-L1.md), [M1-L3](../M1-L3.md), [M9-L2](../M9-L2.md) | Understanding methods; statistics from M9-L2 is helpful but not essential |
-| [M7-L2 – Correctness and computability](../M7-L2.md) | [M1-L3](../M1-L3.md), [M8-L1](../M8-L1.md), [M8-L2](../M8-L2.md) | M1-L3 provides the foundation; M8-L1/M8-L2 explore logic and automata in greater depth |
+| [M7-L2 – Correctness and computability](../M7-L2.md) | [M1-L3](../M1-L3.md), [M8-L1](../M8-L1.md), [M8-L2](../M8-L2.md), [M8-L4](../M8-L4.md) | M1-L3 provides the foundation; M8-L1/M8-L2 explore logic and automata in greater depth, M8-L4 algorithms |
 | [M7-L3 – Distributed systems](../M7-L3.md) | [M2-L5](../M2-L5.md), [M3-L2](../M3-L2.md), [M3-L5](../M3-L5.md), [M4-L1](../M4-L1.md) | Failures, consistency and job processing in concrete systems |
 | [M7-L4 – Data, protection requirements and choice of architecture](../M7-L4.md) | [M1-L4](../M1-L4.md), [M1-L5](../M1-L5.md), [M3-L2](../M3-L2.md), [M3-L5](../M3-L5.md), [M4-L3](../M4-L3.md), [M10-L1](../M10-L1.md), [M10-L2](../M10-L2.md) | Bring together risk, rights, transactions and data models |
 | [M7-L5 – Evaluating AI scientifically](../M7-L5.md) | [M5-L2](../M5-L2.md), [M5-L3](../M5-L3.md), [M6-L1](../M6-L1.md), [M6-L4](../M6-L4.md), [M6-L6](../M6-L6.md), [M9-L2](../M9-L2.md) | Metrics, datasets, system quality and the limitations of evaluations |
@@ -81,7 +81,7 @@ Evaluate deployment decisions, failure models, monitoring and costs together.
 
 ### 4.3 Algorithms, logic and formal reasoning {#43-algorithmen-logik-und-formale-begründung}
 
-[M1-L3](../M1-L3.md) → [M8-L1](../M8-L1.md) → [M8-L2](../M8-L2.md) → [M7-L1](../M7-L1.md) → [M7-L2](../M7-L2.md)
+[M1-L3](../M1-L3.md) → [M8-L1](../M8-L1.md) → [M8-L4](../M8-L4.md) → [M8-L2](../M8-L2.md) → [M7-L1](../M7-L1.md) → [M7-L2](../M7-L2.md)
 
 From algorithmic complexity through logical foundations to correctness proofs and undecidability.
 

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" font-family="Arial, sans-serif" fill="#20252b">
+<rect width="960" height="600" fill="#fff"/>
+<text x="34" y="42" font-size="30" text-anchor="start" font-weight="bold">Red-black tree insertion</text>
+<text x="34" y="72" font-size="17" text-anchor="start">Two cases: red or black uncle</text>
+<line x1="34" y1="90" x2="926" y2="90" stroke="#b9bec4" stroke-width="1"/>
+<text x="34" y="122" font-size="20" text-anchor="start" font-weight="bold">A · Red uncle</text>
+<text x="155" y="150" font-size="17" text-anchor="middle">Conflict</text>
+<line x1="155" y1="185" x2="101" y2="235" stroke="#525b65" stroke-width="2"/>
+<line x1="101" y1="235" x2="68.6" y2="285" stroke="#525b65" stroke-width="2"/>
+<circle cx="68.6" cy="285" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="68.6" y="290" font-size="13" text-anchor="middle" fill="#20252b">5 R</text>
+<circle cx="101" cy="235" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="101" y="240" font-size="13" text-anchor="middle" fill="#20252b">10 R</text>
+<line x1="155" y1="185" x2="209" y2="235" stroke="#525b65" stroke-width="2"/>
+<circle cx="209" cy="235" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="209" y="240" font-size="13" text-anchor="middle" fill="#20252b">30 R</text>
+<circle cx="155" cy="185" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="155" y="190" font-size="13" text-anchor="middle" fill="#fff">20 B</text>
+<text x="480" y="150" font-size="17" text-anchor="middle">Recolour</text>
+<line x1="480" y1="185" x2="426" y2="235" stroke="#525b65" stroke-width="2"/>
+<line x1="426" y1="235" x2="393.6" y2="285" stroke="#525b65" stroke-width="2"/>
+<circle cx="393.6" cy="285" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="393.6" y="290" font-size="13" text-anchor="middle" fill="#20252b">5 R</text>
+<circle cx="426" cy="235" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="426" y="240" font-size="13" text-anchor="middle" fill="#fff">10 B</text>
+<line x1="480" y1="185" x2="534" y2="235" stroke="#525b65" stroke-width="2"/>
+<circle cx="534" cy="235" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="534" y="240" font-size="13" text-anchor="middle" fill="#fff">30 B</text>
+<circle cx="480" cy="185" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="480" y="190" font-size="13" text-anchor="middle" fill="#20252b">20 R</text>
+<text x="805" y="150" font-size="17" text-anchor="middle">Black root</text>
+<line x1="805" y1="185" x2="751" y2="235" stroke="#525b65" stroke-width="2"/>
+<line x1="751" y1="235" x2="718.6" y2="285" stroke="#525b65" stroke-width="2"/>
+<circle cx="718.6" cy="285" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="718.6" y="290" font-size="13" text-anchor="middle" fill="#20252b">5 R</text>
+<circle cx="751" cy="235" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="751" y="240" font-size="13" text-anchor="middle" fill="#fff">10 B</text>
+<line x1="805" y1="185" x2="859" y2="235" stroke="#525b65" stroke-width="2"/>
+<circle cx="859" cy="235" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="859" y="240" font-size="13" text-anchor="middle" fill="#fff">30 B</text>
+<circle cx="805" cy="185" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="805" y="190" font-size="13" text-anchor="middle" fill="#fff">20 B</text>
+<line x1="245" y1="230" x2="382" y2="230" stroke="#3d607d" stroke-width="2"/>
+<path d="M377 225 L387 230 L377 235" stroke="#3d607d" stroke-width="2" fill="none"/>
+<line x1="570" y1="230" x2="707" y2="230" stroke="#3d607d" stroke-width="2"/>
+<path d="M702 225 L712 230 L702 235" stroke="#3d607d" stroke-width="2" fill="none"/>
+<line x1="34" y1="318" x2="926" y2="318" stroke="#d8dce0" stroke-width="1"/>
+<text x="34" y="350" font-size="20" text-anchor="start" font-weight="bold">B · Black uncle (NIL)</text>
+<text x="240" y="378" font-size="17" text-anchor="middle">Red–red edge</text>
+<line x1="240" y1="409" x2="186" y2="457" stroke="#525b65" stroke-width="2"/>
+<line x1="186" y1="457" x2="153.6" y2="505" stroke="#525b65" stroke-width="2"/>
+<circle cx="153.6" cy="505" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="153.6" y="510" font-size="13" text-anchor="middle" fill="#20252b">10 R</text>
+<circle cx="186" cy="457" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="186" y="462" font-size="13" text-anchor="middle" fill="#20252b">20 R</text>
+<circle cx="240" cy="409" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="240" y="414" font-size="13" text-anchor="middle" fill="#fff">30 B</text>
+<text x="720" y="378" font-size="17" text-anchor="middle">After repair</text>
+<line x1="720" y1="409" x2="666" y2="457" stroke="#525b65" stroke-width="2"/>
+<circle cx="666" cy="457" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="666" y="462" font-size="13" text-anchor="middle" fill="#20252b">10 R</text>
+<line x1="720" y1="409" x2="774" y2="457" stroke="#525b65" stroke-width="2"/>
+<circle cx="774" cy="457" r="21" fill="#fce0dc" stroke="#a32b24" stroke-width="2"/>
+<text x="774" y="462" font-size="13" text-anchor="middle" fill="#20252b">30 R</text>
+<circle cx="720" cy="409" r="21" fill="#28323c" stroke="#28323c" stroke-width="2"/>
+<text x="720" y="414" font-size="13" text-anchor="middle" fill="#fff">20 B</text>
+<line x1="355" y1="457" x2="600" y2="457" stroke="#3d607d" stroke-width="2"/>
+<path d="M595 452 L605 457 L595 462" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="480" y="443" font-size="16" text-anchor="middle">Recolour + right rotation</text>
+<text x="480" y="561" font-size="17" text-anchor="middle">R = red; B = black; all missing children are black NIL leaves.</text>
+</svg>

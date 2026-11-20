@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" font-family="Arial, sans-serif" fill="#20252b">
+<rect width="960" height="600" fill="#fff"/>
+<text x="34" y="42" font-size="30" text-anchor="start" font-weight="bold">AVL rotations</text>
+<text x="34" y="72" font-size="17" text-anchor="start">Four insertion repair cases</text>
+<line x1="34" y1="90" x2="926" y2="90" stroke="#b9bec4" stroke-width="1"/>
+<text x="34" y="120" font-size="19" text-anchor="start" font-weight="bold">LL  ·  30, 20, 10</text>
+<line x1="129" y1="167" x2="99" y2="210" stroke="#525b65" stroke-width="2"/>
+<line x1="99" y1="210" x2="81.0" y2="253" stroke="#525b65" stroke-width="2"/>
+<circle cx="81.0" cy="253" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="81.0" y="258" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<circle cx="99" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="99" y="215" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="129" cy="167" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="129" y="172" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<line x1="167" y1="150" x2="306" y2="150" stroke="#3d607d" stroke-width="2"/>
+<path d="M301 145 L311 150 L301 155" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="239.0" y="140" font-size="14" text-anchor="middle">right</text>
+<line x1="349" y1="167" x2="319" y2="210" stroke="#525b65" stroke-width="2"/>
+<circle cx="319" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="319" y="215" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="349" y1="167" x2="379" y2="210" stroke="#525b65" stroke-width="2"/>
+<circle cx="379" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="379" y="215" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="349" cy="167" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="349" y="172" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<line x1="34" y1="321" x2="460" y2="321" stroke="#d8dce0" stroke-width="1"/>
+<text x="490" y="120" font-size="19" text-anchor="start" font-weight="bold">LR  ·  30, 10, 20</text>
+<line x1="554" y1="167" x2="524" y2="210" stroke="#525b65" stroke-width="2"/>
+<line x1="524" y1="210" x2="542.0" y2="253" stroke="#525b65" stroke-width="2"/>
+<circle cx="542.0" cy="253" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="542.0" y="258" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="524" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="524" y="215" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<circle cx="554" cy="167" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="554" y="172" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<line x1="592" y1="150" x2="651" y2="150" stroke="#3d607d" stroke-width="2"/>
+<path d="M646 145 L656 150 L646 155" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="624.0" y="140" font-size="14" text-anchor="middle">left</text>
+<line x1="694" y1="167" x2="664" y2="210" stroke="#525b65" stroke-width="2"/>
+<line x1="664" y1="210" x2="646.0" y2="253" stroke="#525b65" stroke-width="2"/>
+<circle cx="646.0" cy="253" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="646.0" y="258" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<circle cx="664" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="664" y="215" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="694" cy="167" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="694" y="172" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<line x1="732" y1="150" x2="791" y2="150" stroke="#3d607d" stroke-width="2"/>
+<path d="M786 145 L796 150 L786 155" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="764.0" y="140" font-size="14" text-anchor="middle">right</text>
+<line x1="834" y1="167" x2="804" y2="210" stroke="#525b65" stroke-width="2"/>
+<circle cx="804" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="804" y="215" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="834" y1="167" x2="864" y2="210" stroke="#525b65" stroke-width="2"/>
+<circle cx="864" cy="210" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="864" y="215" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="834" cy="167" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="834" y="172" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<line x1="490" y1="321" x2="916" y2="321" stroke="#d8dce0" stroke-width="1"/>
+<text x="34" y="342" font-size="19" text-anchor="start" font-weight="bold">RR  ·  10, 20, 30</text>
+<line x1="129" y1="389" x2="159" y2="432" stroke="#525b65" stroke-width="2"/>
+<line x1="159" y1="432" x2="177.0" y2="475" stroke="#525b65" stroke-width="2"/>
+<circle cx="177.0" cy="475" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="177.0" y="480" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="159" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="159" y="437" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="129" cy="389" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="129" y="394" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="167" y1="372" x2="306" y2="372" stroke="#3d607d" stroke-width="2"/>
+<path d="M301 367 L311 372 L301 377" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="239.0" y="362" font-size="14" text-anchor="middle">left</text>
+<line x1="349" y1="389" x2="319" y2="432" stroke="#525b65" stroke-width="2"/>
+<circle cx="319" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="319" y="437" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="349" y1="389" x2="379" y2="432" stroke="#525b65" stroke-width="2"/>
+<circle cx="379" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="379" y="437" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="349" cy="389" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="349" y="394" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<text x="490" y="342" font-size="19" text-anchor="start" font-weight="bold">RL  ·  10, 30, 20</text>
+<line x1="554" y1="389" x2="584" y2="432" stroke="#525b65" stroke-width="2"/>
+<line x1="584" y1="432" x2="566.0" y2="475" stroke="#525b65" stroke-width="2"/>
+<circle cx="566.0" cy="475" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="566.0" y="480" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="584" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="584" y="437" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="554" cy="389" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="554" y="394" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="592" y1="372" x2="651" y2="372" stroke="#3d607d" stroke-width="2"/>
+<path d="M646 367 L656 372 L646 377" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="624.0" y="362" font-size="14" text-anchor="middle">right</text>
+<line x1="694" y1="389" x2="724" y2="432" stroke="#525b65" stroke-width="2"/>
+<line x1="724" y1="432" x2="742.0" y2="475" stroke="#525b65" stroke-width="2"/>
+<circle cx="742.0" cy="475" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="742.0" y="480" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="724" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="724" y="437" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<circle cx="694" cy="389" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="694" y="394" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="732" y1="372" x2="791" y2="372" stroke="#3d607d" stroke-width="2"/>
+<path d="M786 367 L796 372 L786 377" stroke="#3d607d" stroke-width="2" fill="none"/>
+<text x="764.0" y="362" font-size="14" text-anchor="middle">left</text>
+<line x1="834" y1="389" x2="804" y2="432" stroke="#525b65" stroke-width="2"/>
+<circle cx="804" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="804" y="437" font-size="15" text-anchor="middle" fill="#20252b">10</text>
+<line x1="834" y1="389" x2="864" y2="432" stroke="#525b65" stroke-width="2"/>
+<circle cx="864" cy="432" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="864" y="437" font-size="15" text-anchor="middle" fill="#20252b">30</text>
+<circle cx="834" cy="389" r="16" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="834" y="394" font-size="15" text-anchor="middle" fill="#20252b">20</text>
+<text x="480" y="577" font-size="19" text-anchor="middle" font-weight="bold">Inorder in every case: 10, 20, 30</text>
+</svg>

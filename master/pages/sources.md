@@ -1,7 +1,7 @@
 ---
 document_id: "university_computer_science_en:sources"
 series_id: "university_computer_science_en:M1-L1"
-series_part: 60
+series_part: 61
 document_version: "0.1.0"
 created: "2026-11-19"
 updated: "2026-11-19"
@@ -376,7 +376,12 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://docs.kernel.org/locking/locktypes.html](https://docs.kernel.org/locking/locktypes.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://origin.kernel.org/doc/html/latest/locking/rt-mutex.html](https://origin.kernel.org/doc/html/latest/locking/rt-mutex.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://docs.kernel.org/core-api/real-time/theory.html](https://docs.kernel.org/core-api/real-time/theory.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-37. [M9-L1 – User interfaces, accessibility and software ergonomics](../M9-L1.md)
+37. [M8-L4 – Algorithms and data structures in depth: balanced trees and heaps](../M8-L4.md)
+    - [https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
+    - [https://www.inf.fu-berlin.de/lehre/WS18/ALP3/](https://www.inf.fu-berlin.de/lehre/WS18/ALP3/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
+    - [https://algs4.cs.princeton.edu/cheatsheet/](https://algs4.cs.princeton.edu/cheatsheet/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
+    - [https://cs.yale.edu/homes/aspnes/classes/223/notes.html](https://cs.yale.edu/homes/aspnes/classes/223/notes.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
+38. [M9-L1 – User interfaces, accessibility and software ergonomics](../M9-L1.md)
     - [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.w3.org/WAI/test-evaluate/](https://www.w3.org/WAI/test-evaluate/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -386,7 +391,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/](https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://eur-lex.europa.eu/EN/legal-content/summary/accessibility-of-products-and-services.html](https://eur-lex.europa.eu/EN/legal-content/summary/accessibility-of-products-and-services.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-38. [M9-L2 – Data analysis, visualisation and statistical thinking](../M9-L2.md)
+39. [M9-L2 – Data analysis, visualisation and statistical thinking](../M9-L2.md)
     - [https://itl.nist.gov/div898/handbook/eda/section3/eda351.htm](https://itl.nist.gov/div898/handbook/eda/section3/eda351.htm){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.census.gov/construction/soc/methodology.html](https://www.census.gov/construction/soc/methodology.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://service-manual.ons.gov.uk/data-visualisation/chart-types/choosing-a-chart-type](https://service-manual.ons.gov.uk/data-visualisation/chart-types/choosing-a-chart-type){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -394,7 +399,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://service-manual.ons.gov.uk/data-visualisation/colours/using-colours-in-charts](https://service-manual.ons.gov.uk/data-visualisation/colours/using-colours-in-charts){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://doi.org/10.1080/00031305.2016.1154108](https://doi.org/10.1080/00031305.2016.1154108){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://scikit-learn.org/stable/common_pitfalls.html](https://scikit-learn.org/stable/common_pitfalls.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-39. [M9-L3 – Embedded systems, sensors and microcontrollers](../M9-L3.md)
+40. [M9-L3 – Embedded systems, sensors and microcontrollers](../M9-L3.md)
     - [https://www.raspberrypi.com/products/rp2040/specifications/](https://www.raspberrypi.com/products/rp2040/specifications/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://docs.zephyrproject.org/latest/hardware/peripherals/index.html](https://docs.zephyrproject.org/latest/hardware/peripherals/index.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://arm-software.github.io/CMSIS_6/main/Core/group\_\_NVIC\_\_gr.html](https://arm-software.github.io/CMSIS_6/main/Core/group__NVIC__gr.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -406,7 +411,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://docs.zephyrproject.org/latest/hardware/peripherals/adc.html](https://docs.zephyrproject.org/latest/hardware/peripherals/adc.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://docs.zephyrproject.org/latest/hardware/peripherals/i2c.html](https://docs.zephyrproject.org/latest/hardware/peripherals/i2c.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-40. [M10-L1 – Networks and practical IT security](../M10-L1.md)
+41. [M10-L1 – Networks and practical IT security](../M10-L1.md)
     - [https://lernbeispiel.example](https://lernbeispiel.example){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/cyberframework/faqs](https://www.nist.gov/cyberframework/faqs){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -419,7 +424,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://www.rfc-editor.org/info/rfc9846/](https://www.rfc-editor.org/info/rfc9846/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.rfc-editor.org/info/rfc8200/](https://www.rfc-editor.org/info/rfc8200/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf?\_\_blob=publicationFile&v=3](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf?__blob=publicationFile&v=3){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-41. [M10-L2 – Data modelling and database queries in greater depth](../M10-L2.md)
+42. [M10-L2 – Data modelling and database queries in greater depth](../M10-L2.md)
     - [https://www.postgresql.org/docs/current/ddl-constraints.html](https://www.postgresql.org/docs/current/ddl-constraints.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.postgresql.org/docs/current/queries-table-expressions.html](https://www.postgresql.org/docs/current/queries-table-expressions.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.postgresql.org/docs/current/tutorial-window.html](https://www.postgresql.org/docs/current/tutorial-window.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -432,7 +437,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://www.sqlite.org/lang_transaction.html](https://www.sqlite.org/lang_transaction.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.postgresql.org/docs/current/ddl-rowsecurity.html](https://www.postgresql.org/docs/current/ddl-rowsecurity.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-42. [M7-L1 – Scientific computer science: models, hypotheses and reasoning](../M7-L1.md)
+43. [M7-L1 – Scientific computer science: models, hypotheses and reasoning](../M7-L1.md)
     - [https://plato.stanford.edu/entries/popper/](https://plato.stanford.edu/entries/popper/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -441,7 +446,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://www.postgresql.org/docs/current/using-explain.html](https://www.postgresql.org/docs/current/using-explain.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nationalacademies.org/read/25303/chapter/3](https://www.nationalacademies.org/read/25303/chapter/3){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.acm.org/publications/policies/artifact-review-and-badging-current](https://www.acm.org/publications/policies/artifact-review-and-badging-current){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-43. [M7-L2 – Correctness, computability and analysis of complex methods](../M7-L2.md)
+44. [M7-L2 – Correctness, computability and analysis of complex methods](../M7-L2.md)
     - [https://courses.cs.cornell.edu/courses/cs2110/2026fa/lectures/lec04/](https://courses.cs.cornell.edu/courses/cs2110/2026fa/lectures/lec04/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.cs.cornell.edu/courses/cs2110/2022fa/lectures/loopinv/](https://www.cs.cornell.edu/courses/cs2110/2022fa/lectures/loopinv/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.claymath.org/millennium/p-vs-np/](https://www.claymath.org/millennium/p-vs-np/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -451,7 +456,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://lamport.azurewebsites.net/tla/safety-liveness.pdf](https://lamport.azurewebsites.net/tla/safety-liveness.pdf){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://lamport.azurewebsites.net/tla/tutorial/intro.html](https://lamport.azurewebsites.net/tla/tutorial/intro.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://lamport.azurewebsites.net/tla/tools.html](https://lamport.azurewebsites.net/tla/tools.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-44. [M7-L3 – Distributed systems as formal and practical system models](../M7-L3.md)
+45. [M7-L3 – Distributed systems as formal and practical system models](../M7-L3.md)
     - [https://lamport.azurewebsites.net/pubs/time-clocks.pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.cs.cmu.edu/\~wing/publications/HerlihyWing90.pdf](https://www.cs.cmu.edu/~wing/publications/HerlihyWing90.pdf){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.cs.princeton.edu/courses/archive/spr22/cos418/papers/cap.pdf](https://www.cs.princeton.edu/courses/archive/spr22/cos418/papers/cap.pdf){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -461,7 +466,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://aws.amazon.com/de/builders-library/leader-election-in-distributed-systems/](https://aws.amazon.com/de/builders-library/leader-election-in-distributed-systems/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://dsf.berkeley.edu/cs286/papers/crdt-tr2011.pdf](https://dsf.berkeley.edu/cs286/papers/crdt-tr2011.pdf){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://docs.tlapl.us/using%3Atlc%3Astart](https://docs.tlapl.us/using%3Atlc%3Astart){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-45. [M7-L4 – Data, security and architectural decisions](../M7-L4.md)
+46. [M7-L4 – Data, security and architectural decisions](../M7-L4.md)
     - [https://csrc.nist.gov/pubs/sp/800/30/r1/final](https://csrc.nist.gov/pubs/sp/800/30/r1/final){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://top10.owasp.org/2025/](https://top10.owasp.org/2025/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -470,7 +475,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/tradeoffs](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/tradeoffs){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://eur-lex.europa.eu/eli/reg/2016/679/](https://eur-lex.europa.eu/eli/reg/2016/679/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.postgresql.org/docs/current/ddl-rowsecurity.html](https://www.postgresql.org/docs/current/ddl-rowsecurity.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-46. [M7-L5 – Evaluating AI systems scientifically](../M7-L5.md)
+47. [M7-L5 – Evaluating AI systems scientifically](../M7-L5.md)
     - [https://www.nist.gov/itl/ai-risk-management-framework](https://www.nist.gov/itl/ai-risk-management-framework){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0](https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -481,7 +486,7 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://crfm.stanford.edu/helm/heim/v1.0.0/](https://crfm.stanford.edu/helm/heim/v1.0.0/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://research.google/pubs/model-cards-for-model-reporting/](https://research.google/pubs/model-cards-for-model-reporting/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://scikit-learn.org/stable/modules/model_evaluation.html](https://scikit-learn.org/stable/modules/model_evaluation.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-47. [M7-L6 – Cross-system synthesis and research methods](../M7-L6.md)
+48. [M7-L6 – Cross-system synthesis and research methods](../M7-L6.md)
     - [https://aisel.aisnet.org/misq/vol28/iss1/6/](https://aisel.aisnet.org/misq/vol28/iss1/6/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook](https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://research.google/pubs/the-tail-at-scale/](https://research.google/pubs/the-tail-at-scale/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
@@ -491,11 +496,11 @@ The lessons and navigation work offline. The external links listed here require 
     - [https://www.acm.org/publications/policies/artifact-review-and-badging-current](https://www.acm.org/publications/policies/artifact-review-and-badging-current){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://airc.nist.gov/airmf-resources/airmf/5-sec-core/](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-48. [M11-L1 – Post-quantum cryptography](../M11-L1.md) – additional elective/application topic
+49. [M11-L1 – Post-quantum cryptography](../M11-L1.md) – additional elective/application topic
     - [https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://pages.nist.gov/nccoe-migration-post-quantum-cryptography/](https://pages.nist.gov/nccoe-migration-post-quantum-cryptography/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://csrc.nist.gov/projects/post-quantum-cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
-49. [M11-L2 – Agentic software engineering](../M11-L2.md) – additional elective/application topic
+50. [M11-L2 – Agentic software engineering](../M11-L2.md) – additional elective/application topic
     - [https://www.informatik.kit.edu/downloads/stud/82-079-H-2026_v1_2026-10-12_de.html](https://www.informatik.kit.edu/downloads/stud/82-079-H-2026_v1_2026-10-12_de.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}
     - [https://genai.owasp.org/glossary/prompt-injection/](https://genai.owasp.org/glossary/prompt-injection/){referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"}

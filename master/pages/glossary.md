@@ -1,7 +1,7 @@
 ---
 document_id: "university_computer_science_en:glossary"
 series_id: "university_computer_science_en:M1-L1"
-series_part: 56
+series_part: 57
 document_version: "0.1.0"
 created: "2026-11-19"
 updated: "2026-11-19"
@@ -1282,3 +1282,17 @@ The glossary explains technical terms across all course chapters. The precise me
   Research artefact                  Verifiable component of an investigation (code, data, procedure)                            Rights may limit the ability to publish
   FAIR                               Findable, Accessible, Interoperable, Reusable                                               Accessible does not necessarily mean public
   ADR                                Architecture Decision Record: documented architecture decision                              Documentation does not replace reassessment when changes occur
+
+## M8-L4 – Algorithms and data structures in depth {#S37}
+
+| Term | Meaning | Important |
+| --- | --- | --- |
+| AVL tree | Binary search tree with height difference of at most one at each node | Rotation preserves key order |
+| Balance factor | Height of the left subtree minus height of the right subtree | Only -1, 0 or 1 in an AVL tree |
+| Red-black tree | Search tree with colour and black-height invariants | Logarithmic height bound |
+| Black height | Number of black nodes on a path under a specified counting convention | Equal on all paths from the same starting node |
+| Rotation | Local restructuring of a search tree | Inorder sequence is preserved |
+| Min-heap | Complete binary tree with each parent's key no greater than its children's keys | Minimum at the root, not fully sorted |
+| Priority queue | Abstract data type for selection by priority | Can be implemented with a heap |
+
+Further study: [M8-L4](../M8-L4.md).

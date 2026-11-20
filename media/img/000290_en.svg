@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" font-family="Arial, sans-serif" fill="#20252b">
+<rect width="960" height="600" fill="#fff"/>
+<text x="34" y="42" font-size="30" text-anchor="start" font-weight="bold">Binary min-heap</text>
+<text x="34" y="72" font-size="17" text-anchor="start">Tree, array and extracting the minimum</text>
+<line x1="34" y1="90" x2="926" y2="90" stroke="#b9bec4" stroke-width="1"/>
+<line x1="480" y1="130" x2="359" y2="182" stroke="#525b65" stroke-width="2"/>
+<line x1="359" y1="182" x2="286.4" y2="234" stroke="#525b65" stroke-width="2"/>
+<circle cx="286.4" cy="234" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="286.4" y="239" font-size="15" text-anchor="middle" fill="#20252b">9</text>
+<line x1="359" y1="182" x2="431.6" y2="234" stroke="#525b65" stroke-width="2"/>
+<circle cx="431.6" cy="234" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="431.6" y="239" font-size="15" text-anchor="middle" fill="#20252b">7</text>
+<circle cx="359" cy="182" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="359" y="187" font-size="15" text-anchor="middle" fill="#20252b">5</text>
+<line x1="480" y1="130" x2="601" y2="182" stroke="#525b65" stroke-width="2"/>
+<line x1="601" y1="182" x2="528.4" y2="234" stroke="#525b65" stroke-width="2"/>
+<circle cx="528.4" cy="234" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="528.4" y="239" font-size="15" text-anchor="middle" fill="#20252b">8</text>
+<line x1="601" y1="182" x2="673.6" y2="234" stroke="#525b65" stroke-width="2"/>
+<circle cx="673.6" cy="234" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="673.6" y="239" font-size="15" text-anchor="middle" fill="#20252b">6</text>
+<circle cx="601" cy="182" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="601" y="187" font-size="15" text-anchor="middle" fill="#20252b">4</text>
+<circle cx="480" cy="130" r="19" fill="#fff" stroke="#3d607d" stroke-width="2"/>
+<text x="480" y="135" font-size="15" text-anchor="middle" fill="#20252b">2</text>
+<text x="34" y="287" font-size="17" text-anchor="start" font-weight="bold">Initial array</text>
+<rect x="350" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="380" y="287" font-size="18" text-anchor="middle" font-weight="bold">2</text>
+<text x="380" y="316" font-size="13" text-anchor="middle">0</text>
+<rect x="414" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="444" y="287" font-size="18" text-anchor="middle" font-weight="bold">5</text>
+<text x="444" y="316" font-size="13" text-anchor="middle">1</text>
+<rect x="478" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="508" y="287" font-size="18" text-anchor="middle" font-weight="bold">4</text>
+<text x="508" y="316" font-size="13" text-anchor="middle">2</text>
+<rect x="542" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="572" y="287" font-size="18" text-anchor="middle" font-weight="bold">9</text>
+<text x="572" y="316" font-size="13" text-anchor="middle">3</text>
+<rect x="606" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="636" y="287" font-size="18" text-anchor="middle" font-weight="bold">7</text>
+<text x="636" y="316" font-size="13" text-anchor="middle">4</text>
+<rect x="670" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="700" y="287" font-size="18" text-anchor="middle" font-weight="bold">8</text>
+<text x="700" y="316" font-size="13" text-anchor="middle">5</text>
+<rect x="734" y="262" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="764" y="287" font-size="18" text-anchor="middle" font-weight="bold">6</text>
+<text x="764" y="316" font-size="13" text-anchor="middle">6</text>
+<text x="480" y="337" font-size="17" text-anchor="middle">Children of i: 2i + 1 and 2i + 2 (if present)</text>
+<line x1="34" y1="353" x2="926" y2="353" stroke="#d8dce0" stroke-width="1"/>
+<text x="34" y="397" font-size="17" text-anchor="start" font-weight="bold">Extract 2; move 6 to root</text>
+<rect x="350" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="380" y="397" font-size="18" text-anchor="middle" font-weight="bold">6</text>
+<text x="380" y="426" font-size="13" text-anchor="middle">0</text>
+<rect x="414" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="444" y="397" font-size="18" text-anchor="middle" font-weight="bold">5</text>
+<text x="444" y="426" font-size="13" text-anchor="middle">1</text>
+<rect x="478" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="508" y="397" font-size="18" text-anchor="middle" font-weight="bold">4</text>
+<text x="508" y="426" font-size="13" text-anchor="middle">2</text>
+<rect x="542" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="572" y="397" font-size="18" text-anchor="middle" font-weight="bold">9</text>
+<text x="572" y="426" font-size="13" text-anchor="middle">3</text>
+<rect x="606" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="636" y="397" font-size="18" text-anchor="middle" font-weight="bold">7</text>
+<text x="636" y="426" font-size="13" text-anchor="middle">4</text>
+<rect x="670" y="372" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="700" y="397" font-size="18" text-anchor="middle" font-weight="bold">8</text>
+<text x="700" y="426" font-size="13" text-anchor="middle">5</text>
+<text x="34" y="493" font-size="17" text-anchor="start" font-weight="bold">Swap 6 with 4</text>
+<rect x="350" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="380" y="493" font-size="18" text-anchor="middle" font-weight="bold">4</text>
+<text x="380" y="522" font-size="13" text-anchor="middle">0</text>
+<rect x="414" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="444" y="493" font-size="18" text-anchor="middle" font-weight="bold">5</text>
+<text x="444" y="522" font-size="13" text-anchor="middle">1</text>
+<rect x="478" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="508" y="493" font-size="18" text-anchor="middle" font-weight="bold">6</text>
+<text x="508" y="522" font-size="13" text-anchor="middle">2</text>
+<rect x="542" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="572" y="493" font-size="18" text-anchor="middle" font-weight="bold">9</text>
+<text x="572" y="522" font-size="13" text-anchor="middle">3</text>
+<rect x="606" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="636" y="493" font-size="18" text-anchor="middle" font-weight="bold">7</text>
+<text x="636" y="522" font-size="13" text-anchor="middle">4</text>
+<rect x="670" y="468" width="60" height="38" rx="3" fill="#fff" stroke="#687580"/>
+<text x="700" y="493" font-size="18" text-anchor="middle" font-weight="bold">8</text>
+<text x="700" y="522" font-size="13" text-anchor="middle">5</text>
+<text x="480" y="573" font-size="19" text-anchor="middle" font-weight="bold">Result: heap property restored.</text>
+</svg>

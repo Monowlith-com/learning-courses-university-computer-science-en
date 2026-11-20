@@ -1,7 +1,7 @@
 ---
 document_id: "university_computer_science_en:index"
 series_id: "university_computer_science_en:M1-L1"
-series_part: 57
+series_part: 58
 document_version: "0.1.0"
 created: "2026-11-18"
 updated: "2026-11-18"
@@ -23,7 +23,7 @@ license: "CC BY-NC-SA 4.0 International"
 
 # Course index – Computer Science {#kursindex}
 
-All 49 lessons are organised by module. M = Module · L = Lesson. The lessons can be read in sequence or used as reference material. The course is not an official set of study regulations.
+All 50 lessons are organised by module. M = Module · L = Lesson. The lessons can be read in sequence or used as reference material. The course is not an official set of study regulations.
 
 ## M1 – Foundations {#S1}
 
@@ -78,6 +78,7 @@ All 49 lessons are organised by module. M = Module · L = Lesson. The lessons ca
 - [M8-L1 – Discrete computer science: logic, sets, relations and graphs](../M8-L1.md)
 - [M8-L2 – Formal languages, automata and compilers](../M8-L2.md)
 - [M8-L3 – Operating systems and concurrency in greater depth](../M8-L3.md)
+- [M8-L4 – Algorithms and data structures in depth: balanced trees and heaps](../M8-L4.md)
 - [M9-L1 – User interfaces, accessibility and software ergonomics](../M9-L1.md)
 - [M9-L2 – Data analysis, visualisation and statistical thinking](../M9-L2.md)
 - [M9-L3 – Embedded systems, sensors and microcontrollers](../M9-L3.md)

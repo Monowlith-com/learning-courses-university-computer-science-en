@@ -1,7 +1,7 @@
 ---
 document_id: "university_computer_science_en:study-path"
 series_id: "university_computer_science_en:M1-L1"
-series_part: 59
+series_part: 60
 document_version: "0.1.0"
 created: "2026-11-18"
 updated: "2026-11-18"
@@ -88,13 +88,14 @@ The following classification provides an **educational learning path**; it is no
 | [M6-L6](../M6-L6.md) | AI infrastructure and distributed computing | Bachelor’s / Master’s (elective) |
 | [M6-L7](../M6-L7.md) | Robotics: from language model to acting machine | Bachelor’s / Master’s (elective) |
 
-## M8 – Bachelor’s: Core subject areas (3 lessons) {#S7}
+## M8 – Bachelor’s: Core subject areas (4 lessons) {#S7}
 
 | ID | Lesson | Classification |
 | --- | --- | --- |
 | [M8-L1](../M8-L1.md) | Discrete computer science: logic, sets, relations and graphs | Bachelor’s |
 | [M8-L2](../M8-L2.md) | Formal languages, automata and compilers | Bachelor’s |
 | [M8-L3](../M8-L3.md) | Operating systems and concurrency in greater depth | Bachelor’s |
+| [M8-L4](../M8-L4.md) | Algorithms and data structures in depth | Bachelor’s |
 
 ## M9 – Bachelor’s: Elective and applied subject areas (3 lessons) {#S8}
 
