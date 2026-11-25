@@ -1,10 +1,10 @@
 ---
 document_id: "university_computer_science_en:path"
-series_id: "university_computer_science_en:M1-L1"
-series_part: 59
-document_version: "0.1.0"
+series_id: "university_computer_science_en:_index"
+series_part: 88
+document_version: "0.1.1"
 created: "2026-11-18"
-updated: "2026-11-18"
+updated: "2026-11-24"
 title: "Learning Course – Computer Science: Reading paths and cross-references"
 author: "Stephan Kühn"
 document_type: "Supporting document"

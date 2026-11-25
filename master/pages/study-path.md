@@ -1,10 +1,10 @@
 ---
 document_id: "university_computer_science_en:study-path"
-series_id: "university_computer_science_en:M1-L1"
-series_part: 60
-document_version: "0.1.0"
+series_id: "university_computer_science_en:_index"
+series_part: 89
+document_version: "0.1.1"
 created: "2026-11-18"
-updated: "2026-11-18"
+updated: "2026-11-24"
 title: "Study Path"
 author: "Stephan Kühn"
 document_type: "Supporting material"
@@ -136,3 +136,63 @@ Official module handbooks or university study pages, as of 10 November 2026. The
 - [M11-L1 – Post-quantum cryptography and cryptographic migration](../M11-L1.md) – standalone elective and applied lesson, not a compulsory university class.
 - [M11-L2 – Agentic software engineering: developing software with AI agents](../M11-L2.md) – standalone elective and applied lesson, not a compulsory university class.
 :::
+
+## Additional study routes and advanced topics {#S13}
+
+The following lessons supplement the existing study routes. Follow the levels and prerequisites in the lessons; this classification is not a universal degree regulation.
+
+### M12 – Programming and software quality
+
+- [M12-L1 – Imperative programming and structured data](../M12-L1.md) — Bachelor’s; Core/foundations
+- [M12-L2 – Functional programming and recursion](../M12-L2.md) — Bachelor’s; Core/foundations
+- [M12-L3 – Object orientation, types and polymorphism](../M12-L3.md) — Bachelor’s; Core/foundations
+- [M12-L4 – Test design and systematic software quality](../M12-L4.md) — Bachelor’s; Core/foundations
+
+### M13 – Algorithm design methods
+
+- [M13-L1 – Graph traversal and shortest paths](../M13-L1.md) — Bachelor’s; Core/foundations
+- [M13-L2 – Greedy algorithms and exchange arguments](../M13-L2.md) — Bachelor’s; Core/foundations
+- [M13-L3 – Dynamic programming and recurrences](../M13-L3.md) — Bachelor’s; Core/foundations
+
+### M14 – Formal languages and complexity
+
+- [M14-L1 – Finite automata, subset construction and minimization](../M14-L1.md) — Bachelor’s; Core/foundations
+- [M14-L2 – Regular and context-free languages: proofs and pushdown automata](../M14-L2.md) — Bachelor’s; Core/foundations
+- [M14-L3 – Turing machines and decidability proofs](../M14-L3.md) — Bachelor’s; Core/foundations
+- [M14-L4 – NP-completeness and polynomial reductions](../M14-L4.md) — Bachelor’s; Core/advanced study
+
+### M15 – Computer architecture and operating systems
+
+- [M15-L1 – Digital circuits and register transfer](../M15-L1.md) — Bachelor’s; Core
+- [M15-L2 – Instruction sets, addressing and pipelining](../M15-L2.md) — Bachelor’s; Core
+- [M15-L3 – Cache organization and memory locality](../M15-L3.md) — Bachelor’s; Core
+- [M15-L4 – Virtual memory and page replacement](../M15-L4.md) — Bachelor’s; Core/Elective
+- [M15-L5 – Concurrent programs: synchronization and deadlock analysis](../M15-L5.md) — Bachelor’s; Core
+
+### M16 – Databases and mathematical computing
+
+- [M16-L1 – Relational algebra and query optimization](../M16-L1.md) — Bachelor’s; Core/elective
+- [M16-L2 – Numerical computing: floating point, error and conditioning](../M16-L2.md) — Bachelor’s; Core/bridge
+- [M16-L3 – Discrete probability for algorithms and systems](../M16-L3.md) — Bachelor’s; Core/bridge
+
+### M17 – Compilers and formal methods
+
+- [M17-L1 – Lexing and recursive descent: a small compiler](../M17-L1.md) — Bachelor’s; Elective
+- [M17-L2 – Type checking, intermediate representation and compiler optimization](../M17-L2.md) — Master’s; Specialization
+- [M17-L3 – Hoare logic and weakest preconditions](../M17-L3.md) — Master’s; Specialization
+- [M17-L4 – Model checking and temporal properties](../M17-L4.md) — Master’s; Specialization
+
+### M18 – Parallel and scientific computing
+
+- [M18-L1 – Parallel algorithms and scientific computing](../M18-L1.md) — Master’s; Specialization
+
+### M19 – Computer graphics and computer vision
+
+- [M19-L1 – Computer graphics: transformation and rasterization](../M19-L1.md) — Bachelor’s; Elective specialization
+- [M19-L2 – Computer vision: image filters and geometric features](../M19-L2.md) — Master’s; Elective specialization
+
+### M20 – Project and research
+
+- [M20-L1 – Reproducible computer science project and research report](../M20-L1.md) — Bachelor’s/Master’s; Project
+- [M20-L2 – Interdisciplinary computer science project: models, data and responsibility](../M20-L2.md) — Master’s; Elective specialization
+

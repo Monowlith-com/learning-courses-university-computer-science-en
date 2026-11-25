@@ -1,10 +1,10 @@
 ---
 document_id: "university_computer_science_en:glossary"
-series_id: "university_computer_science_en:M1-L1"
-series_part: 57
-document_version: "0.1.0"
+series_id: "university_computer_science_en:_index"
+series_part: 86
+document_version: "0.1.1"
 created: "2026-11-19"
-updated: "2026-11-19"
+updated: "2026-11-24"
 title: "Glossary – Computer Science"
 author: "Stephan Kühn"
 document_type: "Supporting document"
